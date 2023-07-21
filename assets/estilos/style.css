@@ -58,36 +58,33 @@
     font-weight: 400;
 }
     
-@media only screen and (max-width: 1300px){
+@media only screen and (max-width: 1400px)
     .painel{
-            width: 30%;
-            height: 60%;
+        width: 20%;
+        height: 50%;
+        
     }
 
-    .qr-code>img{
-        width: 50%;
-    }
-}
 
-@media only screen and (max-width: 514px){
+@media only screen and (max-width: 1025px){
     .painel{
-        width: 47%;
+        width: 30%;
         height: 50%;
     }
 
     .qr-code>img{
-        width: 70%;
+        width: 60%;
     }
 
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 675px){
     .painel{
         width: 55%;
         height: 60%;
     }
 
     .qr-code>img{
-        width: 80%;
+        width: 75%;
     } 
 }
