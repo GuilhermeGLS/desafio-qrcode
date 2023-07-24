@@ -23,8 +23,8 @@
 
 .painel{
     background-color: hsl(0, 0%, 100%);
-    width: 15%;
-    height: 48%;
+    width: 15rem;
+    height: 48rem;
     box-shadow: 0px 1px 5px hsl(220, 15%, 55%);
     border-radius: 15px;
 }
@@ -58,33 +58,3 @@
     font-weight: 400;
 }
     
-@media only screen and (max-width: 1400px)
-    .painel{
-        width: 20%;
-        height: 50%;
-        
-    }
-
-
-@media only screen and (max-width: 1025px){
-    .painel{
-        width: 30%;
-        height: 50%;
-    }
-
-    .qr-code>img{
-        width: 60%;
-    }
-
-}
-
-@media only screen and (max-width: 675px){
-    .painel{
-        width: 55%;
-        height: 60%;
-    }
-
-    .qr-code>img{
-        width: 75%;
-    } 
-}
