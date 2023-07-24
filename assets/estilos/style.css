@@ -24,7 +24,7 @@
 .painel{
     background-color: hsl(0, 0%, 100%);
     width: 15rem;
-    height: 48rem;
+    height: 23rem;
     box-shadow: 0px 1px 5px hsl(220, 15%, 55%);
     border-radius: 15px;
 }
